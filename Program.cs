@@ -4,3 +4,9 @@
  * Then print out the count of the students to the Console.
  * 
  */
+
+string nameData = "Joshua,James,Erik,Bjorn,Alex";
+List<string> studentNames = nameData.Split(',').ToList();
+
+Console.WriteLine($"The total number of students is: {studentNames.Count()}");
+
